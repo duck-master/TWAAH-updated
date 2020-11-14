@@ -1,0 +1,213 @@
+{
+   "foyer":{
+      "objects":[
+         "chandelier",
+         "side table"
+      ],
+      "actions":[
+         "debated just leaving the house."
+      ],
+      "exits":[
+         "living room",
+         "front yard",
+         "library"
+      ]
+   },
+   "living room":{
+      "objects":[
+         "flat screen TV",
+         "coffee table"
+      ],
+      "actions":[
+         "turned on the TV for a while.",
+         "bounced on the sofa, hoping to recapture her childhood innocence."
+      ],
+      "exits":[
+         "foyer",
+         "front yard",
+         "dining room"
+      ]
+   },
+   "dining room":{
+      "objects":[
+         "dining room table",
+         "silverware"
+      ],
+      "actions":[],
+      "exits":[
+         "living room",
+         "patio",
+         "kitchen"
+      ]
+   },
+   "kitchen":{
+      "objects":[
+         "knife set",
+         "oven",
+         "fridge"
+      ],
+      "actions":[
+         "rifled through the cabinets for alcohol.",
+         "checked the fridge for snacks."
+      ],
+      "exits":[
+         "dining room",
+         "patio",
+         "pantry",
+         "breakfast nook"
+      ]
+   },
+   "patio":{
+      "objects":[
+         "lawn furniture",
+         "gas grill"
+      ],
+      "actions":[],
+      "exits":[
+         "dining room",
+         "kitchen",
+         "garage"
+      ]
+   },
+   "pantry":{
+      "objects":[
+         "broom",
+         "mop",
+         "bric-a-brac"
+      ],
+      "actions":[
+         "surrepticiously rearranged the supplies.",
+         "looked for some paper towels."
+      ],
+      "exits":[
+         "kitchen"
+      ]
+   },
+   "breakfast nook":{
+      "objects":[
+         "table",
+         "juicer",
+         "toaster"
+      ],
+      "actions":[
+         "drank some juice, fuck it, right? Whose house even was this?"
+      ],
+      "exits":[
+         "kitchen"
+      ]
+   },
+   "garage":{
+      "objects":[
+         "BMW",
+         "riding lawnmower"
+      ],
+      "actions":[
+         "considered getting on that lawnmower and riding it out of this place.",
+         "peered in the car door for some kind of clue as to whose house this was.",
+         "tried to jimmy the lock on the car and ended up setting off the alarm. Whoops."
+      ],
+      "exits":[
+         "patio",
+         "front yard",
+         "great hall"
+      ]
+   },
+   "front yard":{
+      "objects":[
+         "lawn",
+         "tree"
+      ],
+      "actions":[
+         "started to climb the tree, then thought better of it.",
+         "ran her fingers through the well-manicured grass, dreaming of better days."
+      ],
+      "exits":[
+         "living room",
+         "foyer",
+         "garage"
+      ]
+   },
+   "great hall":{
+      "objects":[
+         "family portrait",
+         "tribal Afghan rug"
+      ],
+      "actions":[
+         "took off her shoes, got a running start, a slid in her socks down the slick hardwood floors.",
+         "stared down the hall, which seemed longer than it had any right to be."
+      ],
+      "exits":[
+         "library",
+         "bath",
+         "guest bedroom",
+         "master bedroom"
+      ]
+   },
+   "library":{
+      "objects":[
+         "bookshelf",
+         "mahogany work desk"
+      ],
+      "actions":[
+         "flipped through some books.",
+         "tried and failed to open the lock on the desk."
+      ],
+      "exits":[
+         "foyer",
+         "great hall"
+      ]
+   },
+   "guest bedroom":{
+      "objects":[
+         "bed",
+         "poster of a... Monet?",
+         "set of curtains"
+      ],
+      "actions":[
+         "imagined what kind of people had stayed in the bed. How many people had had sex in it?",
+         "guessed that this was the most boring room in the house."
+      ],
+      "exits":[
+         "great hall"
+      ]
+   },
+   "bath":{
+      "objects":[
+         "toilet",
+         "framed photo of a fish",
+         "nautical themed shower curtain"
+      ],
+      "actions":[
+         "relieved herself.",
+         "jiggled the toilet handle.",
+         "looked around for tampons, finding none.",
+         "was afraid, as she always was, that a murderer lay in ambush behind the shower curtain."
+      ],
+      "exits":[
+         "great hall"
+      ]
+   },
+   "master bedroom":{
+      "objects":[
+         "king-sized bed",
+         "teak dresser"
+      ],
+      "actions":[],
+      "exits":[
+         "great hall",
+         "master bathroom"
+      ]
+   },
+   "master bathroom":{
+      "objects":[
+         "blonde onyx countertop",
+         "blonde onyx toilet",
+         "blonde onyx bathtub",
+         "blonde onyx flooring"
+      ],
+      "actions":[],
+      "exits":[
+         "master bedroom"
+      ]
+   }
+}
